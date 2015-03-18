@@ -11,7 +11,7 @@ data {
 
 parameters {
   cholesky_factor_corr[J] L; // Cholesky factor of unconditional correlation of random effects
-  vector[J] tau;  // relative standard deviations of unconditional distribution of random effects
+vector<lower=0>[J] tau;  // relative standard deviations of unconditional distribution of random effects
   vector[J] u[M]; // spherical random effects
   vector[K] beta; // fixed-effects
   real<lower=0> sigma; // standard deviation of response given random effects

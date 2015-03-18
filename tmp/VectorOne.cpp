@@ -179,7 +179,7 @@ public:
         vector_d tau(J);
         for (int j1__ = 0U; j1__ < J; ++j1__)
             tau(j1__) = vals_r__[pos__++];
-        try { writer__.vector_unconstrain(tau); } catch (const std::exception& e) {  throw std::runtime_error(std::string("Error transforming variable tau: ") + e.what()); }
+        try { writer__.vector_lb_unconstrain(0,tau); } catch (const std::exception& e) {  throw std::runtime_error(std::string("Error transforming variable tau: ") + e.what()); }
 
         if (!(context__.contains_r("u")))
             throw std::runtime_error("variable u missing");
@@ -250,9 +250,9 @@ public:
         Eigen::Matrix<T__,Eigen::Dynamic,1>  tau;
         (void) tau;   // dummy to suppress unused var warning
         if (jacobian__)
-            tau = in__.vector_constrain(J,lp__);
+            tau = in__.vector_lb_constrain(0,J,lp__);
         else
-            tau = in__.vector_constrain(J);
+            tau = in__.vector_lb_constrain(0,J);
 
         vector<Eigen::Matrix<T__,Eigen::Dynamic,1> > u;
         size_t dim_u_0__ = M;
@@ -450,7 +450,7 @@ public:
         (void) function__; // dummy call to supress warning
         // read-transform, write parameters
         matrix_d L = in__.cholesky_corr_constrain(J);
-        vector_d tau = in__.vector_constrain(J);
+        vector_d tau = in__.vector_lb_constrain(0,J);
         vector<vector_d> u;
         size_t dim_u_0__ = M;
         for (size_t k_0__ = 0; k_0__ < dim_u_0__; ++k_0__) {
@@ -621,7 +621,7 @@ public:
         // read-transform, write parameters
         matrix_d L = in__.cholesky_corr_constrain(J);
         writer__.write(L);
-        vector_d tau = in__.vector_constrain(J);
+        vector_d tau = in__.vector_lb_constrain(0,J);
         writer__.write(tau);
         vector<vector_d> u;
         size_t dim_u_0__ = M;
