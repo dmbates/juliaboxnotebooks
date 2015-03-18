@@ -1,0 +1,1350 @@
+ method = sample (Default)
+   sample
+     num_samples = 1000 (Default)
+     num_warmup = 1000 (Default)
+     save_warmup = 0 (Default)
+     thin = 1 (Default)
+     adapt
+       engaged = 1 (Default)
+       gamma = 0.050000000000000003 (Default)
+       delta = 0.80000000000000004 (Default)
+       kappa = 0.75 (Default)
+       t0 = 10 (Default)
+       init_buffer = 75 (Default)
+       term_buffer = 50 (Default)
+       window = 25 (Default)
+     algorithm = hmc (Default)
+       hmc
+         engine = nuts (Default)
+           nuts
+             max_depth = 10 (Default)
+         metric = diag_e (Default)
+         stepsize = 1 (Default)
+         stepsize_jitter = 1
+ id = 1
+ data
+   file = VectorOne_1.data.R
+ init = 2 (Default)
+ random
+   seed = 898015593
+ output
+   file = VectorOne_samples_1.csv
+   diagnostic_file =  (Default)
+   refresh = 100 (Default)
+
+
+Gradient evaluation took 5.4e-05 seconds
+1000 transitions using 10 leapfrog steps per transition would take 0.54 seconds.
+Adjust your expectations accordingly!
+
+
+Iteration:    1 / 2000 [  0%]  (Warmup)
+ method = sample (Default)
+   sample
+     num_samples = 1000 (Default)
+     num_warmup = 1000 (Default)
+     save_warmup = 0 (Default)
+     thin = 1 (Default)
+     adapt
+       engaged = 1 (Default)
+       gamma = 0.050000000000000003 (Default)
+       delta = 0.80000000000000004 (Default)
+       kappa = 0.75 (Default)
+       t0 = 10 (Default)
+       init_buffer = 75 (Default)
+       term_buffer = 50 (Default)
+       window = 25 (Default)
+     algorithm = hmc (Default)
+       hmc
+         engine = nuts (Default)
+           nuts
+             max_depth = 10 (Default)
+         metric = diag_e (Default)
+         stepsize = 1 (Default)
+         stepsize_jitter = 1
+ id = 2
+ data
+   file = VectorOne_2.data.R
+ init = 2 (Default)
+ random
+   seed = 898015620
+ output
+   file = VectorOne_samples_2.csv
+   diagnostic_file =  (Default)
+   refresh = 100 (Default)
+
+
+Gradient evaluation took 5.6e-05 seconds
+1000 transitions using 10 leapfrog steps per transition would take 0.56 seconds.
+Adjust your expectations accordingly!
+
+
+ method = sample (Default)
+   sample
+     num_samples = 1000 (Default)
+     num_warmup = 1000 (Default)
+     save_warmup = 0 (Default)
+     thin = 1 (Default)
+     adapt
+       engaged = 1 (Default)
+       gamma = 0.050000000000000003 (Default)
+       delta = 0.80000000000000004 (Default)
+       kappa = 0.75 (Default)
+       t0 = 10 (Default)
+       init_buffer = 75 (Default)
+       term_buffer = 50 (Default)
+       window = 25 (Default)
+     algorithm = hmc (Default)
+       hmc
+         engine = nuts (Default)
+ method = sample (Default)
+           nuts
+   sample
+             max_depth = 10 (Default)
+         metric = diag_e (Default)
+     num_samples = 1000 (Default)
+     num_warmup = 1000 (Default)
+         stepsize = 1 (Default)
+     save_warmup = 0 (Default)
+         stepsize_jitter = 1
+     thin = 1 (Default)
+ id = 3
+     adapt
+ data
+       engaged = 1 (Default)
+   file = VectorOne_3.data.R
+ init = 2 (Default)
+       gamma = 0.050000000000000003 (Default)
+ random
+       delta = 0.80000000000000004 (Default)
+   seed = 898015622
+ output
+       kappa = 0.75 (Default)
+   file = VectorOne_samples_3.csv
+       t0 = 10 (Default)
+   diagnostic_file =  (Default)
+       init_buffer = 75 (Default)
+   refresh = 100 (Default)
+       term_buffer = 50 (Default)
+
+       window = 25 (Default)
+     algorithm = hmc (Default)
+       hmc
+         engine = nuts (Default)
+           nuts
+             max_depth = 10 (Default)
+         metric = diag_e (Default)
+         stepsize = 1 (Default)
+         stepsize_jitter = 1
+ id = 4
+ data
+   file = VectorOne_4.data.R
+ init = 2 (Default)
+ random
+   seed = 898015622
+ output
+   file = VectorOne_samples_4.csv
+   diagnostic_file =  (Default)
+   refresh = 100 (Default)
+
+Iteration:    1 / 2000 [  0%]  (Warmup)
+
+Gradient evaluation took 9.1e-05 seconds
+1000 transitions using 10 leapfrog steps per transition would take 0.91 seconds.
+Adjust your expectations accordingly!
+
+
+
+Gradient evaluation took 9.8e-05 seconds
+1000 transitions using 10 leapfrog steps per transition would take 0.98 seconds.
+Adjust your expectations accordingly!
+
+
+Iteration:    1 / 2000 [  0%]  (Warmup)
+Iteration:    1 / 2000 [  0%]  (Warmup)
+Iteration:  100 / 2000 [  5%]  (Warmup)
+Iteration:  200 / 2000 [ 10%]  (Warmup)
+Iteration:  300 / 2000 [ 15%]  (Warmup)
+Iteration:  400 / 2000 [ 20%]  (Warmup)
+Iteration:  500 / 2000 [ 25%]  (Warmup)
+Iteration:  600 / 2000 [ 30%]  (Warmup)
+Iteration:  700 / 2000 [ 35%]  (Warmup)
+Iteration:  100 / 2000 [  5%]  (Warmup)
+Iteration:  100 / 2000 [  5%]  (Warmup)
+Iteration:  800 / 2000 [ 40%]  (Warmup)
+Iteration:  900 / 2000 [ 45%]  (Warmup)
+Iteration:  200 / 2000 [ 10%]  (Warmup)
+Iteration:  200 / 2000 [ 10%]  (Warmup)
+Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Iteration:  100 / 2000 [  5%]  (Warmup)
+Iteration:  300 / 2000 [ 15%]  (Warmup)
+Iteration:  300 / 2000 [ 15%]  (Warmup)
+Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Iteration:  400 / 2000 [ 20%]  (Warmup)
+Iteration:  400 / 2000 [ 20%]  (Warmup)
+Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Iteration:  200 / 2000 [ 10%]  (Warmup)
+Iteration:  500 / 2000 [ 25%]  (Warmup)
+Iteration:  500 / 2000 [ 25%]  (Warmup)
+Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Iteration:  600 / 2000 [ 30%]  (Warmup)
+Iteration:  300 / 2000 [ 15%]  (Warmup)
+Iteration:  600 / 2000 [ 30%]  (Warmup)
+Iteration:  700 / 2000 [ 35%]  (Warmup)
+Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Iteration:  400 / 2000 [ 20%]  (Warmup)
+Iteration:  700 / 2000 [ 35%]  (Warmup)
+Iteration:  800 / 2000 [ 40%]  (Warmup)
+Iteration:  900 / 2000 [ 45%]  (Warmup)
+Iteration:  800 / 2000 [ 40%]  (Warmup)
+Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Iteration:  500 / 2000 [ 25%]  (Warmup)
+Iteration:  900 / 2000 [ 45%]  (Warmup)
+Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Iteration:  600 / 2000 [ 30%]  (Warmup)
+Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Iteration:  700 / 2000 [ 35%]  (Warmup)
+Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Iteration:  800 / 2000 [ 40%]  (Warmup)
+Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Iteration:  900 / 2000 [ 45%]  (Warmup)
+Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Iteration: 2000 / 2000 [100%]  (Sampling)
+
+#  Elapsed Time: 7.31239 seconds (Warm-up)
+#                2.19318 seconds (Sampling)
+#                9.50557 seconds (Total)
+
+Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Iteration: 2000 / 2000 [100%]  (Sampling)
+
+#  Elapsed Time: 8.54667 seconds (Warm-up)
+#                2.02253 seconds (Sampling)
+#                10.5692 seconds (Total)
+
+Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Iteration: 2000 / 2000 [100%]  (Sampling)
+
+#  Elapsed Time: 8.75685 seconds (Warm-up)
+#                2.14325 seconds (Sampling)
+#                10.9001 seconds (Total)
+
+Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Iteration: 2000 / 2000 [100%]  (Sampling)
+
+#  Elapsed Time: 9.25432 seconds (Warm-up)
+#                2.01559 seconds (Sampling)
+#                11.2699 seconds (Total)
+
+ method = sample (Default)
+   sample
+ method = sample (Default)
+     num_samples = 1000 (Default)
+   sample
+     num_warmup = 1000 (Default)
+ method = sample (Default)
+     save_warmup = 0 (Default)
+   sample
+     thin = 1 (Default)
+     num_samples = 1000 (Default)
+     num_warmup = 1000 (Default)
+     adapt
+     save_warmup = 0 (Default)
+       engaged = 1 (Default)
+       gamma = 0.050000000000000003 (Default)
+       delta = 0.80000000000000004 (Default)
+     thin = 1 (Default)
+       kappa = 0.75 (Default)
+     adapt
+       t0 = 10 (Default)
+       init_buffer = 75 (Default)
+       engaged = 1 (Default)
+       term_buffer = 50 (Default)
+       window = 25 (Default)
+       gamma = 0.050000000000000003 (Default)
+     algorithm = hmc (Default)
+       delta = 0.80000000000000004 (Default)
+       hmc
+       kappa = 0.75 (Default)
+         engine = nuts (Default)
+           nuts
+       t0 = 10 (Default)
+             max_depth = 10 (Default)
+       init_buffer = 75 (Default)
+         metric = diag_e (Default)
+       term_buffer = 50 (Default)
+       window = 25 (Default)
+     algorithm = hmc (Default)
+         stepsize = 1 (Default)
+       hmc
+         stepsize_jitter = 1
+         engine = nuts (Default)
+ id = 3
+           nuts
+ data
+   file = VectorOne_3.data.R
+             max_depth = 10 (Default)
+ init = 2 (Default)
+         metric = diag_e (Default)
+ random
+   seed = 898550377
+         stepsize = 1 (Default)
+ output
+         stepsize_jitter = 1
+   file = VectorOne_samples_3.csv
+ id = 2
+   diagnostic_file =  (Default)
+ data
+   refresh = 100 (Default)
+   file = VectorOne_2.data.R
+
+ init = 2 (Default)
+ random
+     num_samples = 1000 (Default)
+   seed = 898550377
+ output
+     num_warmup = 1000 (Default)
+   file = VectorOne_samples_2.csv
+     save_warmup = 0 (Default)
+   diagnostic_file =  (Default)
+     thin = 1 (Default)
+   refresh = 100 (Default)
+     adapt
+
+       engaged = 1 (Default)
+       gamma = 0.050000000000000003 (Default)
+       delta = 0.80000000000000004 (Default)
+       kappa = 0.75 (Default)
+       t0 = 10 (Default)
+       init_buffer = 75 (Default)
+       term_buffer = 50 (Default)
+       window = 25 (Default)
+     algorithm = hmc (Default)
+       hmc
+         engine = nuts (Default)
+           nuts
+             max_depth = 10 (Default)
+         metric = diag_e (Default)
+         stepsize = 1 (Default)
+         stepsize_jitter = 1
+ id = 1
+ data
+   file = VectorOne_1.data.R
+ init = 2 (Default)
+ random
+   seed = 898550377
+ output
+   file = VectorOne_samples_1.csv
+   diagnostic_file =  (Default)
+   refresh = 100 (Default)
+
+
+Gradient evaluation took 5.3e-05 seconds
+1000 transitions using 10 leapfrog steps per transition would take 0.53 seconds.
+Adjust your expectations accordingly!
+
+
+
+Gradient evaluation took 5.2e-05 seconds
+1000 transitions using 10 leapfrog steps per transition would take 0.52 seconds.
+Adjust your expectations accordingly!
+
+
+
+Gradient evaluation took 5.3e-05 seconds
+1000 transitions using 10 leapfrog steps per transition would take 0.53 seconds.
+Adjust your expectations accordingly!
+
+
+Iteration:    1 / 2000 [  0%]  (Warmup)
+Iteration:    1 / 2000 [  0%]  (Warmup)
+Iteration:    1 / 2000 [  0%]  (Warmup)
+ method = sample (Default)
+   sample
+     num_samples = 1000 (Default)
+     num_warmup = 1000 (Default)
+     save_warmup = 0 (Default)
+     thin = 1 (Default)
+     adapt
+       engaged = 1 (Default)
+       gamma = 0.050000000000000003 (Default)
+       delta = 0.80000000000000004 (Default)
+       kappa = 0.75 (Default)
+       t0 = 10 (Default)
+       init_buffer = 75 (Default)
+       term_buffer = 50 (Default)
+       window = 25 (Default)
+     algorithm = hmc (Default)
+       hmc
+         engine = nuts (Default)
+           nuts
+             max_depth = 10 (Default)
+         metric = diag_e (Default)
+         stepsize = 1 (Default)
+         stepsize_jitter = 1
+ id = 4
+ data
+   file = VectorOne_4.data.R
+ init = 2 (Default)
+ random
+   seed = 898550381
+ output
+   file = VectorOne_samples_4.csv
+   diagnostic_file =  (Default)
+   refresh = 100 (Default)
+
+
+Gradient evaluation took 5.2e-05 seconds
+1000 transitions using 10 leapfrog steps per transition would take 0.52 seconds.
+Adjust your expectations accordingly!
+
+
+Iteration:    1 / 2000 [  0%]  (Warmup)
+Iteration:  100 / 2000 [  5%]  (Warmup)
+Iteration:  200 / 2000 [ 10%]  (Warmup)
+Iteration:  300 / 2000 [ 15%]  (Warmup)
+Iteration:  100 / 2000 [  5%]  (Warmup)
+Iteration:  400 / 2000 [ 20%]  (Warmup)
+Iteration:  100 / 2000 [  5%]  (Warmup)
+Iteration:  200 / 2000 [ 10%]  (Warmup)
+Iteration:  500 / 2000 [ 25%]  (Warmup)
+Iteration:  100 / 2000 [  5%]  (Warmup)
+Iteration:  600 / 2000 [ 30%]  (Warmup)
+Iteration:  300 / 2000 [ 15%]  (Warmup)
+Iteration:  200 / 2000 [ 10%]  (Warmup)
+Iteration:  700 / 2000 [ 35%]  (Warmup)
+Iteration:  400 / 2000 [ 20%]  (Warmup)
+Iteration:  300 / 2000 [ 15%]  (Warmup)
+Iteration:  800 / 2000 [ 40%]  (Warmup)
+Iteration:  200 / 2000 [ 10%]  (Warmup)
+Iteration:  500 / 2000 [ 25%]  (Warmup)
+Iteration:  400 / 2000 [ 20%]  (Warmup)
+Iteration:  900 / 2000 [ 45%]  (Warmup)
+Iteration:  300 / 2000 [ 15%]  (Warmup)
+Iteration:  600 / 2000 [ 30%]  (Warmup)
+Iteration:  500 / 2000 [ 25%]  (Warmup)
+Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Iteration:  400 / 2000 [ 20%]  (Warmup)
+Iteration:  700 / 2000 [ 35%]  (Warmup)
+Iteration:  600 / 2000 [ 30%]  (Warmup)
+Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Iteration:  500 / 2000 [ 25%]  (Warmup)
+Iteration:  800 / 2000 [ 40%]  (Warmup)
+Iteration:  700 / 2000 [ 35%]  (Warmup)
+Iteration:  600 / 2000 [ 30%]  (Warmup)
+Iteration:  900 / 2000 [ 45%]  (Warmup)
+Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Iteration:  800 / 2000 [ 40%]  (Warmup)
+Iteration:  700 / 2000 [ 35%]  (Warmup)
+Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Iteration:  900 / 2000 [ 45%]  (Warmup)
+Iteration:  800 / 2000 [ 40%]  (Warmup)
+Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Iteration:  900 / 2000 [ 45%]  (Warmup)
+Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Iteration: 2000 / 2000 [100%]  (Sampling)
+
+#  Elapsed Time: 7.78394 seconds (Warm-up)
+#                2.00372 seconds (Sampling)
+#                9.78766 seconds (Total)
+
+Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Iteration: 2000 / 2000 [100%]  (Sampling)
+
+#  Elapsed Time: 8.37741 seconds (Warm-up)
+#                1.91446 seconds (Sampling)
+#                10.2919 seconds (Total)
+
+Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Iteration: 2000 / 2000 [100%]  (Sampling)
+
+#  Elapsed Time: 8.63596 seconds (Warm-up)
+#                2.04585 seconds (Sampling)
+#                10.6818 seconds (Total)
+
+Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Iteration: 2000 / 2000 [100%]  (Sampling)
+
+#  Elapsed Time: 8.82539 seconds (Warm-up)
+#                2.27268 seconds (Sampling)
+#                11.0981 seconds (Total)
+
+ method = sample (Default)
+   sample
+     num_samples = 1000 (Default)
+     num_warmup = 1000 (Default)
+     save_warmup = 0 (Default)
+     thin = 1 (Default)
+     adapt
+       engaged = 1 (Default)
+       gamma = 0.050000000000000003 (Default)
+       delta = 0.80000000000000004 (Default)
+       kappa = 0.75 (Default)
+       t0 = 10 (Default)
+       init_buffer = 75 (Default)
+       term_buffer = 50 (Default)
+       window = 25 (Default)
+     algorithm = hmc (Default)
+       hmc
+         engine = nuts (Default)
+           nuts
+             max_depth = 10 (Default)
+         metric = diag_e (Default)
+         stepsize = 1 (Default)
+         stepsize_jitter = 1
+ id = 1
+ data
+   file = VectorOne_1.data.R
+ init = 2 (Default)
+ random
+   seed = 899551333
+ output
+   file = VectorOne_samples_1.csv
+   diagnostic_file =  (Default)
+   refresh = 100 (Default)
+
+
+Gradient evaluation took 5.4e-05 seconds
+1000 transitions using 10 leapfrog steps per transition would take 0.54 seconds.
+ method = sample (Default)
+Adjust your expectations accordingly!
+
+   sample
+
+     num_samples = 1000 (Default)
+     num_warmup = 1000 (Default)
+     save_warmup = 0 (Default)
+     thin = 1 (Default)
+     adapt
+       engaged = 1 (Default)
+       gamma = 0.050000000000000003 (Default)
+       delta = 0.80000000000000004 (Default)
+       kappa = 0.75 (Default)
+       t0 = 10 (Default)
+       init_buffer = 75 (Default)
+       term_buffer = 50 (Default)
+       window = 25 (Default)
+     algorithm = hmc (Default)
+       hmc
+         engine = nuts (Default)
+           nuts
+             max_depth = 10 (Default)
+         metric = diag_e (Default)
+         stepsize = 1 (Default)
+         stepsize_jitter = 1
+ id = 3
+ data
+   file = VectorOne_3.data.R
+ method = sample (Default)
+ init = 2 (Default)
+   sample
+ random
+   seed = 899551333
+     num_samples = 1000 (Default)
+ output
+     num_warmup = 1000 (Default)
+   file = VectorOne_samples_3.csv
+     save_warmup = 0 (Default)
+   diagnostic_file =  (Default)
+     thin = 1 (Default)
+   refresh = 100 (Default)
+     adapt
+
+       engaged = 1 (Default)
+       gamma = 0.050000000000000003 (Default)
+       delta = 0.80000000000000004 (Default)
+       kappa = 0.75 (Default)
+       t0 = 10 (Default)
+       init_buffer = 75 (Default)
+       term_buffer = 50 (Default)
+       window = 25 (Default)
+     algorithm = hmc (Default)
+       hmc
+         engine = nuts (Default)
+           nuts
+             max_depth = 10 (Default)
+         metric = diag_e (Default)
+         stepsize = 1 (Default)
+         stepsize_jitter = 1
+ id = 4
+ data
+   file = VectorOne_4.data.R
+ init = 2 (Default)
+ random
+   seed = 899551333
+ output
+   file = VectorOne_samples_4.csv
+   diagnostic_file =  (Default)
+   refresh = 100 (Default)
+
+
+Gradient evaluation took 5.4e-05 seconds
+1000 transitions using 10 leapfrog steps per transition would take 0.54 seconds.
+Adjust your expectations accordingly!
+
+
+
+Gradient evaluation took 5.4e-05 seconds
+1000 transitions using 10 leapfrog steps per transition would take 0.54 seconds.
+Adjust your expectations accordingly!
+
+
+Iteration:    1 / 2000 [  0%]  (Warmup)
+Iteration:    1 / 2000 [  0%]  (Warmup)
+Iteration:    1 / 2000 [  0%]  (Warmup)
+ method = sample (Default)
+   sample
+     num_samples = 1000 (Default)
+     num_warmup = 1000 (Default)
+     save_warmup = 0 (Default)
+     thin = 1 (Default)
+     adapt
+       engaged = 1 (Default)
+       gamma = 0.050000000000000003 (Default)
+       delta = 0.80000000000000004 (Default)
+       kappa = 0.75 (Default)
+       t0 = 10 (Default)
+       init_buffer = 75 (Default)
+       term_buffer = 50 (Default)
+       window = 25 (Default)
+     algorithm = hmc (Default)
+       hmc
+         engine = nuts (Default)
+           nuts
+             max_depth = 10 (Default)
+         metric = diag_e (Default)
+         stepsize = 1 (Default)
+         stepsize_jitter = 1
+ id = 2
+ data
+   file = VectorOne_2.data.R
+ init = 2 (Default)
+ random
+   seed = 899551337
+ output
+   file = VectorOne_samples_2.csv
+   diagnostic_file =  (Default)
+   refresh = 100 (Default)
+
+
+Gradient evaluation took 5.4e-05 seconds
+1000 transitions using 10 leapfrog steps per transition would take 0.54 seconds.
+Adjust your expectations accordingly!
+
+
+Iteration:    1 / 2000 [  0%]  (Warmup)
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+stan::prob::normal_log(N4stan5agrad3varE): Scale parameter is 0:0, but must be > 0!
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+Iteration:  100 / 2000 [  5%]  (Warmup)
+Iteration:  200 / 2000 [ 10%]  (Warmup)
+Iteration:  100 / 2000 [  5%]  (Warmup)
+Iteration:  300 / 2000 [ 15%]  (Warmup)
+Iteration:  400 / 2000 [ 20%]  (Warmup)
+Iteration:  100 / 2000 [  5%]  (Warmup)
+Iteration:  200 / 2000 [ 10%]  (Warmup)
+Iteration:  500 / 2000 [ 25%]  (Warmup)
+Iteration:  600 / 2000 [ 30%]  (Warmup)
+Iteration:  300 / 2000 [ 15%]  (Warmup)
+Iteration:  100 / 2000 [  5%]  (Warmup)
+Iteration:  200 / 2000 [ 10%]  (Warmup)
+Iteration:  700 / 2000 [ 35%]  (Warmup)
+Iteration:  400 / 2000 [ 20%]  (Warmup)
+Iteration:  800 / 2000 [ 40%]  (Warmup)
+Iteration:  300 / 2000 [ 15%]  (Warmup)
+Iteration:  500 / 2000 [ 25%]  (Warmup)
+Iteration:  900 / 2000 [ 45%]  (Warmup)
+Iteration:  200 / 2000 [ 10%]  (Warmup)
+Iteration:  400 / 2000 [ 20%]  (Warmup)
+Iteration:  600 / 2000 [ 30%]  (Warmup)
+Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Iteration:  300 / 2000 [ 15%]  (Warmup)
+Iteration:  500 / 2000 [ 25%]  (Warmup)
+Iteration:  700 / 2000 [ 35%]  (Warmup)
+Iteration:  400 / 2000 [ 20%]  (Warmup)
+Iteration:  600 / 2000 [ 30%]  (Warmup)
+Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Iteration:  800 / 2000 [ 40%]  (Warmup)
+Iteration:  700 / 2000 [ 35%]  (Warmup)
+Iteration:  500 / 2000 [ 25%]  (Warmup)
+Iteration:  900 / 2000 [ 45%]  (Warmup)
+Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Iteration:  800 / 2000 [ 40%]  (Warmup)
+Iteration:  600 / 2000 [ 30%]  (Warmup)
+Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Iteration:  900 / 2000 [ 45%]  (Warmup)
+Iteration:  700 / 2000 [ 35%]  (Warmup)
+Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Iteration:  800 / 2000 [ 40%]  (Warmup)
+Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Iteration:  900 / 2000 [ 45%]  (Warmup)
+Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Iteration: 2000 / 2000 [100%]  (Sampling)
+
+#  Elapsed Time: 7.89996 seconds (Warm-up)
+#                2.14346 seconds (Sampling)
+#                10.0434 seconds (Total)
+
+Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Iteration: 2000 / 2000 [100%]  (Sampling)
+
+#  Elapsed Time: 8.52812 seconds (Warm-up)
+#                2.18175 seconds (Sampling)
+#                10.7099 seconds (Total)
+
+Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Iteration: 2000 / 2000 [100%]  (Sampling)
+
+#  Elapsed Time: 8.81396 seconds (Warm-up)
+#                2.22771 seconds (Sampling)
+#                11.0417 seconds (Total)
+
+Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Iteration: 2000 / 2000 [100%]  (Sampling)
+
+#  Elapsed Time: 9.18 seconds (Warm-up)
+#                2.45932 seconds (Sampling)
+#                11.6393 seconds (Total)
+
+ method = sample (Default)
+   sample
+     num_samples = 1000 (Default)
+     num_warmup = 1000 (Default)
+     save_warmup = 0 (Default)
+     thin = 1 (Default)
+     adapt
+       engaged = 1 (Default)
+ method = sample (Default)
+       gamma = 0.050000000000000003 (Default)
+   sample
+       delta = 0.80000000000000004 (Default)
+       kappa = 0.75 (Default)
+     num_samples = 1000 (Default)
+       t0 = 10 (Default)
+     num_warmup = 1000 (Default)
+     save_warmup = 0 (Default)
+     thin = 1 (Default)
+     adapt
+       init_buffer = 75 (Default)
+       term_buffer = 50 (Default)
+       window = 25 (Default)
+       engaged = 1 (Default)
+     algorithm = hmc (Default)
+       hmc
+         engine = nuts (Default)
+           nuts
+             max_depth = 10 (Default)
+       gamma = 0.050000000000000003 (Default)
+       delta = 0.80000000000000004 (Default)
+         metric = diag_e (Default)
+ method = sample (Default)
+         stepsize = 1 (Default)
+         stepsize_jitter = 1
+ id = 1
+   sample
+ data
+   file = VectorOne_1.data.R
+ init = 2 (Default)
+     num_samples = 1000 (Default)
+     num_warmup = 1000 (Default)
+     save_warmup = 0 (Default)
+ random
+     thin = 1 (Default)
+   seed = 899645960
+     adapt
+       engaged = 1 (Default)
+ output
+       gamma = 0.050000000000000003 (Default)
+   file = VectorOne_samples_1.csv
+       delta = 0.80000000000000004 (Default)
+       kappa = 0.75 (Default)
+   diagnostic_file =  (Default)
+       t0 = 10 (Default)
+   refresh = 100 (Default)
+       init_buffer = 75 (Default)
+
+       term_buffer = 50 (Default)
+       window = 25 (Default)
+       kappa = 0.75 (Default)
+     algorithm = hmc (Default)
+       hmc
+       t0 = 10 (Default)
+         engine = nuts (Default)
+       init_buffer = 75 (Default)
+           nuts
+       term_buffer = 50 (Default)
+             max_depth = 10 (Default)
+       window = 25 (Default)
+         metric = diag_e (Default)
+     algorithm = hmc (Default)
+         stepsize = 1 (Default)
+       hmc
+         stepsize_jitter = 1
+         engine = nuts (Default)
+ id = 3
+           nuts
+ data
+             max_depth = 10 (Default)
+   file = VectorOne_3.data.R
+         metric = diag_e (Default)
+ init = 2 (Default)
+         stepsize = 1 (Default)
+ random
+         stepsize_jitter = 1
+   seed = 899645960
+ id = 2
+ output
+ data
+   file = VectorOne_samples_3.csv
+   file = VectorOne_2.data.R
+   diagnostic_file =  (Default)
+ init = 2 (Default)
+   refresh = 100 (Default)
+ random
+
+   seed = 899645960
+ output
+   file = VectorOne_samples_2.csv
+   diagnostic_file =  (Default)
+   refresh = 100 (Default)
+
+
+Gradient evaluation took 5.4e-05 seconds
+1000 transitions using 10 leapfrog steps per transition would take 0.54 seconds.
+Adjust your expectations accordingly!
+
+
+
+Gradient evaluation took 5.5e-05 seconds
+1000 transitions using 10 leapfrog steps per transition would take 0.55 seconds.
+Adjust your expectations accordingly!
+
+
+
+Gradient evaluation took 5.7e-05 seconds
+1000 transitions using 10 leapfrog steps per transition would take 0.57 seconds.
+Adjust your expectations accordingly!
+
+
+ method = sample (Default)
+   sample
+     num_samples = 1000 (Default)
+     num_warmup = 1000 (Default)
+     save_warmup = 0 (Default)
+     thin = 1 (Default)
+     adapt
+       engaged = 1 (Default)
+       gamma = 0.050000000000000003 (Default)
+       delta = 0.80000000000000004 (Default)
+       kappa = 0.75 (Default)
+       t0 = 10 (Default)
+       init_buffer = 75 (Default)
+       term_buffer = 50 (Default)
+       window = 25 (Default)
+     algorithm = hmc (Default)
+       hmc
+         engine = nuts (Default)
+           nuts
+             max_depth = 10 (Default)
+         metric = diag_e (Default)
+         stepsize = 1 (Default)
+         stepsize_jitter = 1
+ id = 4
+ data
+   file = VectorOne_4.data.R
+ init = 2 (Default)
+ random
+   seed = 899645961
+ output
+   file = VectorOne_samples_4.csv
+   diagnostic_file =  (Default)
+   refresh = 100 (Default)
+
+
+Gradient evaluation took 5.4e-05 seconds
+1000 transitions using 10 leapfrog steps per transition would take 0.54 seconds.
+Adjust your expectations accordingly!
+
+
+Iteration:    1 / 2000 [  0%]  (Warmup)
+Iteration:    1 / 2000 [  0%]  (Warmup)
+Iteration:    1 / 2000 [  0%]  (Warmup)
+Iteration:    1 / 2000 [  0%]  (Warmup)
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+stan::prob::normal_log(N4stan5agrad3varE): Scale parameter is 0:0, but must be > 0!
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+Iteration:  100 / 2000 [  5%]  (Warmup)
+Iteration:  200 / 2000 [ 10%]  (Warmup)
+Iteration:  300 / 2000 [ 15%]  (Warmup)
+Iteration:  100 / 2000 [  5%]  (Warmup)
+Iteration:  400 / 2000 [ 20%]  (Warmup)
+Iteration:  100 / 2000 [  5%]  (Warmup)
+Iteration:  200 / 2000 [ 10%]  (Warmup)
+Iteration:  500 / 2000 [ 25%]  (Warmup)
+Iteration:  200 / 2000 [ 10%]  (Warmup)
+Iteration:  300 / 2000 [ 15%]  (Warmup)
+Iteration:  100 / 2000 [  5%]  (Warmup)
+Iteration:  600 / 2000 [ 30%]  (Warmup)
+Iteration:  400 / 2000 [ 20%]  (Warmup)
+Iteration:  300 / 2000 [ 15%]  (Warmup)
+Iteration:  700 / 2000 [ 35%]  (Warmup)
+Iteration:  200 / 2000 [ 10%]  (Warmup)
+Iteration:  500 / 2000 [ 25%]  (Warmup)
+Iteration:  400 / 2000 [ 20%]  (Warmup)
+Iteration:  800 / 2000 [ 40%]  (Warmup)
+Iteration:  300 / 2000 [ 15%]  (Warmup)
+Iteration:  600 / 2000 [ 30%]  (Warmup)
+Iteration:  500 / 2000 [ 25%]  (Warmup)
+Iteration:  900 / 2000 [ 45%]  (Warmup)
+Iteration:  700 / 2000 [ 35%]  (Warmup)
+Iteration:  400 / 2000 [ 20%]  (Warmup)
+Iteration:  600 / 2000 [ 30%]  (Warmup)
+Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Iteration:  800 / 2000 [ 40%]  (Warmup)
+Iteration:  500 / 2000 [ 25%]  (Warmup)
+Iteration:  700 / 2000 [ 35%]  (Warmup)
+Iteration:  900 / 2000 [ 45%]  (Warmup)
+Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Iteration:  600 / 2000 [ 30%]  (Warmup)
+Iteration:  800 / 2000 [ 40%]  (Warmup)
+Iteration:  700 / 2000 [ 35%]  (Warmup)
+Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Iteration:  900 / 2000 [ 45%]  (Warmup)
+Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Iteration:  800 / 2000 [ 40%]  (Warmup)
+Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Iteration:  900 / 2000 [ 45%]  (Warmup)
+Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Iteration: 2000 / 2000 [100%]  (Sampling)
+
+#  Elapsed Time: 7.99082 seconds (Warm-up)
+#                2.10064 seconds (Sampling)
+#                10.0915 seconds (Total)
+
+Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Iteration: 2000 / 2000 [100%]  (Sampling)
+
+#  Elapsed Time: 8.4271 seconds (Warm-up)
+#                2.62335 seconds (Sampling)
+#                11.0505 seconds (Total)
+
+Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Iteration: 2000 / 2000 [100%]  (Sampling)
+
+#  Elapsed Time: 8.61088 seconds (Warm-up)
+#                2.64855 seconds (Sampling)
+#                11.2594 seconds (Total)
+
+Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Iteration: 2000 / 2000 [100%]  (Sampling)
+
+#  Elapsed Time: 8.93581 seconds (Warm-up)
+#                2.81597 seconds (Sampling)
+#                11.7518 seconds (Total)
+
+ method = sample (Default)
+   sample
+     num_samples = 1000 (Default)
+     num_warmup = 1000 (Default)
+     save_warmup = 0 (Default)
+     thin = 1 (Default)
+     adapt
+       engaged = 1 (Default)
+       gamma = 0.050000000000000003 (Default)
+       delta = 0.80000000000000004 (Default)
+       kappa = 0.75 (Default)
+       t0 = 10 (Default)
+       init_buffer = 75 (Default)
+       term_buffer = 50 (Default)
+       window = 25 (Default)
+     algorithm = hmc (Default)
+       hmc
+         engine = nuts (Default)
+           nuts
+             max_depth = 10 (Default)
+         metric = diag_e (Default)
+         stepsize = 1 (Default)
+         stepsize_jitter = 1
+ id = 2
+ data
+   file = VectorOne_2.data.R
+ init = 2 (Default)
+ random
+   seed = 899884141
+ output
+   file = VectorOne_samples_2.csv
+ method = sample (Default)
+   diagnostic_file =  (Default)
+   sample
+   refresh = 100 (Default)
+
+     num_samples = 1000 (Default)
+     num_warmup = 1000 (Default)
+     save_warmup = 0 (Default)
+     thin = 1 (Default)
+     adapt
+       engaged = 1 (Default)
+       gamma = 0.050000000000000003 (Default)
+       delta = 0.80000000000000004 (Default)
+       kappa = 0.75 (Default)
+       t0 = 10 (Default)
+ method = sample (Default)
+       init_buffer = 75 (Default)
+   sample
+       term_buffer = 50 (Default)
+       window = 25 (Default)
+     num_samples = 1000 (Default)
+     algorithm = hmc (Default)
+     num_warmup = 1000 (Default)
+       hmc
+     save_warmup = 0 (Default)
+         engine = nuts (Default)
+     thin = 1 (Default)
+           nuts
+     adapt
+             max_depth = 10 (Default)
+       engaged = 1 (Default)
+         metric = diag_e (Default)
+       gamma = 0.050000000000000003 (Default)
+         stepsize = 1 (Default)
+       delta = 0.80000000000000004 (Default)
+         stepsize_jitter = 1
+       kappa = 0.75 (Default)
+ id = 3
+       t0 = 10 (Default)
+ data
+       init_buffer = 75 (Default)
+   file = VectorOne_3.data.R
+       term_buffer = 50 (Default)
+ init = 2 (Default)
+       window = 25 (Default)
+ random
+     algorithm = hmc (Default)
+   seed = 899884141
+       hmc
+ output
+         engine = nuts (Default)
+   file = VectorOne_samples_3.csv
+           nuts
+   diagnostic_file =  (Default)
+             max_depth = 10 (Default)
+   refresh = 100 (Default)
+         metric = diag_e (Default)
+
+         stepsize = 1 (Default)
+         stepsize_jitter = 1
+ id = 4
+ data
+   file = VectorOne_4.data.R
+ init = 2 (Default)
+ random
+   seed = 899884141
+ output
+   file = VectorOne_samples_4.csv
+   diagnostic_file =  (Default)
+   refresh = 100 (Default)
+
+
+Gradient evaluation took 5.4e-05 seconds
+1000 transitions using 10 leapfrog steps per transition would take 0.54 seconds.
+Adjust your expectations accordingly!
+
+
+
+Gradient evaluation took 5.4e-05 seconds
+1000 transitions using 10 leapfrog steps per transition would take 0.54 seconds.
+Adjust your expectations accordingly!
+
+
+
+Gradient evaluation took 5.4e-05 seconds
+1000 transitions using 10 leapfrog steps per transition would take 0.54 seconds.
+Adjust your expectations accordingly!
+
+
+Iteration:    1 / 2000 [  0%]  (Warmup)
+Iteration:    1 / 2000 [  0%]  (Warmup)
+Iteration:    1 / 2000 [  0%]  (Warmup)
+ method = sample (Default)
+   sample
+     num_samples = 1000 (Default)
+     num_warmup = 1000 (Default)
+     save_warmup = 0 (Default)
+     thin = 1 (Default)
+     adapt
+       engaged = 1 (Default)
+       gamma = 0.050000000000000003 (Default)
+       delta = 0.80000000000000004 (Default)
+       kappa = 0.75 (Default)
+       t0 = 10 (Default)
+       init_buffer = 75 (Default)
+       term_buffer = 50 (Default)
+       window = 25 (Default)
+     algorithm = hmc (Default)
+       hmc
+         engine = nuts (Default)
+           nuts
+             max_depth = 10 (Default)
+         metric = diag_e (Default)
+         stepsize = 1 (Default)
+         stepsize_jitter = 1
+ id = 1
+ data
+   file = VectorOne_1.data.R
+ init = 2 (Default)
+ random
+   seed = 899884140
+ output
+   file = VectorOne_samples_1.csv
+   diagnostic_file =  (Default)
+   refresh = 100 (Default)
+
+
+Gradient evaluation took 5.3e-05 seconds
+1000 transitions using 10 leapfrog steps per transition would take 0.53 seconds.
+Adjust your expectations accordingly!
+
+
+Iteration:    1 / 2000 [  0%]  (Warmup)
+Iteration:  100 / 2000 [  5%]  (Warmup)
+Iteration:  100 / 2000 [  5%]  (Warmup)
+Iteration:  100 / 2000 [  5%]  (Warmup)
+Iteration:  200 / 2000 [ 10%]  (Warmup)
+Iteration:  100 / 2000 [  5%]  (Warmup)
+Iteration:  200 / 2000 [ 10%]  (Warmup)
+Iteration:  300 / 2000 [ 15%]  (Warmup)
+Iteration:  200 / 2000 [ 10%]  (Warmup)
+Iteration:  300 / 2000 [ 15%]  (Warmup)
+Iteration:  200 / 2000 [ 10%]  (Warmup)
+Iteration:  400 / 2000 [ 20%]  (Warmup)
+Iteration:  300 / 2000 [ 15%]  (Warmup)
+Iteration:  400 / 2000 [ 20%]  (Warmup)
+Iteration:  300 / 2000 [ 15%]  (Warmup)
+Iteration:  500 / 2000 [ 25%]  (Warmup)
+Iteration:  400 / 2000 [ 20%]  (Warmup)
+Iteration:  400 / 2000 [ 20%]  (Warmup)
+Iteration:  600 / 2000 [ 30%]  (Warmup)
+Iteration:  500 / 2000 [ 25%]  (Warmup)
+Iteration:  500 / 2000 [ 25%]  (Warmup)
+Iteration:  700 / 2000 [ 35%]  (Warmup)
+Iteration:  600 / 2000 [ 30%]  (Warmup)
+Iteration:  600 / 2000 [ 30%]  (Warmup)
+Iteration:  500 / 2000 [ 25%]  (Warmup)
+Iteration:  800 / 2000 [ 40%]  (Warmup)
+Iteration:  700 / 2000 [ 35%]  (Warmup)
+Iteration:  700 / 2000 [ 35%]  (Warmup)
+Iteration:  600 / 2000 [ 30%]  (Warmup)
+Iteration:  900 / 2000 [ 45%]  (Warmup)
+Iteration:  800 / 2000 [ 40%]  (Warmup)
+Iteration:  700 / 2000 [ 35%]  (Warmup)
+Iteration:  800 / 2000 [ 40%]  (Warmup)
+Iteration:  900 / 2000 [ 45%]  (Warmup)
+Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Iteration:  800 / 2000 [ 40%]  (Warmup)
+Iteration:  900 / 2000 [ 45%]  (Warmup)
+Iteration:  900 / 2000 [ 45%]  (Warmup)
+Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Iteration: 1000 / 2000 [ 50%]  (Warmup)
+Iteration: 1001 / 2000 [ 50%]  (Sampling)
+Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Iteration: 1100 / 2000 [ 55%]  (Sampling)
+Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Iteration: 1200 / 2000 [ 60%]  (Sampling)
+Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Iteration: 1300 / 2000 [ 65%]  (Sampling)
+Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Iteration: 1400 / 2000 [ 70%]  (Sampling)
+Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Iteration: 1500 / 2000 [ 75%]  (Sampling)
+Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Iteration: 1600 / 2000 [ 80%]  (Sampling)
+Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Iteration: 1700 / 2000 [ 85%]  (Sampling)
+Iteration: 2000 / 2000 [100%]  (Sampling)
+
+#  Elapsed Time: 8.29031 seconds (Warm-up)
+#                2.08227 seconds (Sampling)
+#                10.3726 seconds (Total)
+
+Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Iteration: 1800 / 2000 [ 90%]  (Sampling)
+Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Iteration: 2000 / 2000 [100%]  (Sampling)
+
+#  Elapsed Time: 8.57521 seconds (Warm-up)
+#                2.07303 seconds (Sampling)
+#                10.6482 seconds (Total)
+
+Iteration: 1900 / 2000 [ 95%]  (Sampling)
+Iteration: 2000 / 2000 [100%]  (Sampling)
+
+#  Elapsed Time: 8.49628 seconds (Warm-up)
+#                2.34335 seconds (Sampling)
+#                10.8396 seconds (Total)
+
+Iteration: 2000 / 2000 [100%]  (Sampling)
+
+#  Elapsed Time: 8.67985 seconds (Warm-up)
+#                2.37662 seconds (Sampling)
+#                11.0565 seconds (Total)
+
