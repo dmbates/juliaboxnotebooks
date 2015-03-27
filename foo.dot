@@ -1,0 +1,17 @@
+digraph MambaModel {
+	"b" [shape="ellipse", fillcolor="gray85", style="filled"];
+		"b" -> "μ";
+	"σ₁²" [shape="ellipse"];
+		"σ₁²" -> "b";
+	"β" [shape="ellipse"];
+		"β" -> "μ";
+	"σ²" [shape="ellipse"];
+		"σ²" -> "y";
+	"μ" [shape="diamond", fillcolor="gray85", style="filled"];
+		"μ" -> "y";
+	"Xt" [shape="box", fillcolor="gray85", style="filled"];
+		"Xt" -> "μ";
+	"Zt" [shape="box", fillcolor="gray85", style="filled"];
+		"Zt" -> "μ";
+	"y" [shape="ellipse", fillcolor="gray85", style="filled"];
+}
